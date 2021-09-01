@@ -11,8 +11,8 @@ class Config(object):
 
     # REQUIRED
     API_KEY = "YOUR KEY HERE"
-    OWNER_ID = "YOUR ID HERE"  # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_USERNAME = "YOUR USERNAME HERE"
+    OWNER_ID = "1740204002"  # If you dont know, run the bot and do /id in your private chat with it
+    OWNER_USERNAME = "@Me_Iz_Mad_Boi"
     # Some API is required for more features
     API_OPENWEATHER = ""
     API_ACCUWEATHER = ""
@@ -27,9 +27,9 @@ class Config(object):
     URL = None
 
     # OPTIONAL
-    SUDO_USERS = []  # List of id's (not usernames) for users which have sudo access to the bot.
+    SUDO_USERS = [1331816485]  # List of id's (not usernames) for users which have sudo access to the bot.
     SUPPORT_USERS = []  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
-    WHITELIST_USERS = []  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
+    WHITELIST_USERS = [1331816485]  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
     DONATION_LINK = None  # EG, paypal
     CERT_PATH = None
     PORT = 5000
